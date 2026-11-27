@@ -1,0 +1,7 @@
+node_modules/
+bot/app/
+dist/
+dist-play/
+log/
+.tgcloud/
+*.log

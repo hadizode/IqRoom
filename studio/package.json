@@ -1,0 +1,32 @@
+{
+  "name": "escape-room-studio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:play": "VITE_PLAY_ONLY=1 vite build --outDir ../bot/app --emptyOutDir",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@telegram-apps/telegram-ui": "^2.1.13",
+    "konva": "^10.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.16",
+    "use-image": "^1.1.4",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.7.0",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "iqroom",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix studio run dev",
+    "typecheck": "npm --prefix studio run typecheck",
+    "test": "npm --prefix studio run test",
+    "build": "npm --prefix studio run build:play",
+    "build:play": "npm --prefix studio run build:play",
+    "deploy": "npm run build && npm --prefix bot run deploy",
+    "push": "npm --prefix bot run deploy",
+    "status": "npm --prefix bot run status"
+  }
+}
